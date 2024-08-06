@@ -7,10 +7,10 @@ Environment:
 The basic environment is based on the following link: https://github.com/dvl-tum/mot_neural_solver You need to install related tools to run the code.
 
 Dataset: 
-You need to download the MOTChallenge dataset and prepare the detections boxes in advance, and put the data in corresponding directories (MOT16 and detection). Here we provide a link for downloading the dataset directly.
+You need to download the MOTChallenge dataset and prepare the detections boxes in advance, and put the data in corresponding directories (MOT16 and detection). Here we provide a link for downloading the dataset directly. MOTChallenge dataset: https://drive.google.com/file/d/1l-R-2sqSdWgjuXSdRXADWEtiRLS03Nep/view?usp=drive_link Detection boxes (https://drive.google.com/file/d/1q5V-7siYWbR7afaDCmLzVV7J1HEUnh2x/view?usp=drive_link)
 
 Feature Extraction: 
-Running the feat_extract.py to extract the features for each person. This may take a little time. Feature extraction is based on "Bag of tricks and a strong baseline for deep person re-identification" You can also choose to download the features directly from the following link.
+Running the feat_extract.py to extract the features for each person. To run this code, you need to download two models (https://drive.google.com/drive/folders/1n2u8MokCaAiipktU5Vs4XDuHyq6YcVgX?usp=drive_link) and put them into the directory. This may take a little time. Feature extraction is based on "Bag of tricks and a strong baseline for deep person re-identification" You can also choose to download the features directly from the following link. https://drive.google.com/file/d/1l-R-2sqSdWgjuXSdRXADWEtiRLS03Nep/view?usp=drive_link
 
 SparseMPN 
 Running "train.py" to train our model or running "test.py" to directly do the inference.
