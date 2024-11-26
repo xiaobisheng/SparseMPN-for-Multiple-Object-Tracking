@@ -4,12 +4,6 @@ This project implement our method "Sparse Message Passing Network with Feature I
 ### results
 Here is a short example video of the tracking result.
 
-https://github.com/user-attachments/assets/027f0cd8-c964-44d1-9338-344b1623902c
-
-
-
-
-
 ### Environment: 
 
 The basic environment is based on the following link: https://github.com/dvl-tum/mot_neural_solver You need to install related tools to run the code.
