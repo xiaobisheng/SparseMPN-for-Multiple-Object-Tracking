@@ -1,9 +1,6 @@
 # SparseMPN-for-Multiple-Object-Tracking
 This project implement our method "Sparse Message Passing Network with Feature Integration for Online Multiple Object Tracking".
 
-### results
-Here is a short example video of the tracking result.
-
 ### Environment: 
 
 The basic environment is based on the following link: https://github.com/dvl-tum/mot_neural_solver You need to install related tools to run the code.
