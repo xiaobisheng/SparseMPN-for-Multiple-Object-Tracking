@@ -1,7 +1,14 @@
 # SparseMPN-for-Multiple-Object-Tracking
 This project implement our method "Sparse Message Passing Network with Feature Integration for Online Multiple Object Tracking".
 
-The method is proposed based on the work "Learning a Neural Solver for Multiple Object Tracking (CVPR 2020)". Based on this work, we redesigned the graph construct process and rewrite the inference code. Besides, we use a new feature extraction and integration method. Details can be seen from our paper: Sparse Message Passing Network with Feature Integration for Online Multiple Object Tracking.
+### results
+Here is a short example video of the tracking result.
+
+https://github.com/user-attachments/assets/027f0cd8-c964-44d1-9338-344b1623902c
+
+
+
+
 
 ### Environment: 
 
@@ -17,6 +24,8 @@ Running the feat_extract.py to extract the features for each person. To run this
 
 ### SparseMPN 
 Running "train.py" to train our model or running "test.py" to directly do the inference.
+
+The method is proposed based on the work "Learning a Neural Solver for Multiple Object Tracking (CVPR 2020)". Based on this work, we redesigned the graph construct process and rewrite the inference code. Besides, we use a new feature extraction and integration method. Details can be seen from our paper: Sparse Message Passing Network with Feature Integration for Online Multiple Object Tracking.
 
 If you find this work useful, please cite our work: 
 
